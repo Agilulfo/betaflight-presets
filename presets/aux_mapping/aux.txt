@@ -18,14 +18,27 @@ aux 5 26 0 1950 2100 1 0
 aux 6 31 5 1925 2100 0 0
 aux 7 35 4 1700 2100 0 0
 
-# rate selection
+###################################################################
+# in flight adjustments:
+# https://www.betaflight.com/docs/development/Inflight-Adjustments#adjustment-functions
+# adjrange <index> 0 <range channel> <range start> <range end> <adjustment function> <adjustment channel>
+
+# 29 - osd profile switching
 
 adjrange 0 0 2 900 1200 29 2 0 0
 adjrange 1 0 2 1400 1600 29 2 0 0
 adjrange 2 0 2 1800 2100 29 2 0 0
+
+# 12 - rate profile (allows to switch between 3 rate profiles
+
 adjrange 3 0 7 900 2100 12 7 0 0
 
-# vtx power
+###################################################################
+# vtx - vtx channels and power on switch
+# https://www.betaflight.com/docs/wiki/guides/current/VTX-CLI-Settings#change-vtx-power-level-using-aux-channel
+#	<index> <aux_channel> <vtx_band> <vtx_channel> <vtx_power> <start_range> <end_range
+# note: aux_channels are 0 based index, meaning that AUX 1 is 0, 2 is 1 and so on.
+# note: 0 for <vtx_band> <vtx_channel> <vtx_power> means no change.
 
 vtx 0 6 0 0 5 900 1000
 vtx 1 6 0 0 1 1200 1300
