@@ -1,0 +1,16 @@
+#$ TITLE: air65 filtering
+#$ DESCRIPTION: air65 filtering
+#$ AUTHOR: Flavio
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: FILTERS
+#$ STATUS: COMMUNITY
+
+
+# filters
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 120
+set dyn_notch_max_hz = 500
+set gyro_lpf1_dyn_min_hz = 0
+

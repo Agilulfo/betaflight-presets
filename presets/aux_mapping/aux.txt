@@ -1,0 +1,34 @@
+#$ TITLE: Mapping of AUX channels
+#$ DESCRIPTION: My current channel mapping to different features.
+#$ AUTHOR: Flavio
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+
+# Set elements to show only Battery Voltage and Flight Time
+
+# aux
+
+aux 0 0 0 1950 2100 0 0
+aux 1 0 4 1700 1800 0 0
+aux 2 1 3 1950 2100 0 0
+aux 3 13 1 1700 2100 0 0
+aux 4 26 5 900 1100 1 0
+aux 5 26 0 1950 2100 1 0
+aux 6 31 5 1925 2100 0 0
+aux 7 35 4 1700 2100 0 0
+
+# rate selection
+
+adjrange 0 0 2 900 1200 29 2 0 0
+adjrange 1 0 2 1400 1600 29 2 0 0
+adjrange 2 0 2 1800 2100 29 2 0 0
+adjrange 3 0 7 900 2100 12 7 0 0
+
+# vtx power
+
+vtx 0 6 0 0 5 900 1000
+vtx 1 6 0 0 1 1200 1300
+vtx 2 6 0 0 2 1400 1600
+vtx 3 6 0 0 3 1700 1800
+vtx 4 6 0 0 4 2000 2100
