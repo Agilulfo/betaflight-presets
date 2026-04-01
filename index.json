@@ -143,7 +143,8 @@
       "OSD",
       "OTHER",
       "RATES",
-      "TUNE"
+      "TUNE",
+      "VTX"
     ],
     "author": [
       "Flavio"
@@ -222,6 +223,18 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/vtx/vtx.txt",
+      "hash": "00021433470a4af3a718134e03dfdf5107865daa231d720a811048c0dcb5950a",
+      "title": "VTX configuration",
+      "author": "Flavio",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "priority": 1000000
     }
   ]
 }
