@@ -1,7 +1,7 @@
 #$ TITLE: miscellaneous
 #$ DESCRIPTION: some other needed things.
 #$ AUTHOR: Flavio
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 

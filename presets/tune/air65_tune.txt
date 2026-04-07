@@ -1,7 +1,7 @@
 #$ TITLE: Air65 pid tuning
 #$ DESCRIPTION: Air65 pid tuning
 #$ AUTHOR: Flavio
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 

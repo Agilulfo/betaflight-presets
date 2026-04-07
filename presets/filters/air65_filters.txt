@@ -1,7 +1,7 @@
 #$ TITLE: air65 filtering
 #$ DESCRIPTION: air65 filtering
 #$ AUTHOR: Flavio
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 

@@ -1,7 +1,7 @@
 #$ TITLE: Flavio's Rates
 #$ DESCRIPTION: My and my friends rates
 #$ AUTHOR: Flavio
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 
