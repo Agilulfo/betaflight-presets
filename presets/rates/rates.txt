@@ -6,6 +6,20 @@
 #$ STATUS: COMMUNITY
 
 
+# actual profile (default)
+
+# center sensitivity
+# set [roll|pitch|yaw]_rc_rate = xx
+## xx0
+
+# expo
+# set [roll|pitch|yaw]_expo = xx
+## 0.xx
+
+# max rate
+# set [roll|pitch|yaw]_srate = xx
+## xx0
+
 rateprofile 0
 
 # rateprofile 0
