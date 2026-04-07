@@ -46,5 +46,5 @@ set osd_canvas_width = 30
 set osd_canvas_height = 13
 
 # document what is in this bitmask
-set osd_stat_bitmask = 1188
+set osd_stat_bitmask = 8393892
 
