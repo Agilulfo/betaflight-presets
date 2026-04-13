@@ -5,45 +5,37 @@
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 
-# OSD
+# OSD configuration
 
-## commented few osd elements that were in my OSD that I don't recall
+# OSD elment value meaning
+# State	    Formula	                Resulting Range
+# Visible	(Row×32)+Column	        0 to 2047
+# Hidden	((Row×32)+Column)+2048	2048 to 4095
+
+# NOTE: betaflight might actually dump out other values (>4095)
+# such values include an offset that encode in which profile such element is visible
 
 set osd_vbat_pos = 14732
 set osd_rssi_pos = 226
 set osd_link_quality_pos = 2113
 set osd_link_tx_power_pos = 353
 set osd_rssi_dbm_pos = 2081
-# check if to remove one of them?
 set osd_tim_1_pos = 386
-set osd_tim_2_pos = 6550
-# set osd_remaining_time_estimate_pos = 33
 set osd_flymode_pos = 401
-# set osd_throttle_pos = 344
 set osd_vtx_channel_pos = 18785
-# set osd_crosshairs_pos = 206
-# set osd_current_pos = 2102
 set osd_mah_drawn_pos = 2135
 set osd_craft_name_pos = 2433
-# set osd_pilot_name_pos = 1
-# set osd_home_dist_pos = 98
-# set osd_flight_dist_pos = 130
 set osd_warnings_pos = 14570
-set osd_avg_cell_voltage_pos = 44ggg
-# set osd_pit_ang_pos = 97
-# set osd_rol_ang_pos = 65
+set osd_avg_cell_voltage_pos = 44
 set osd_battery_usage_pos = 2056
 set osd_disarmed_pos = 267
-# set osd_esc_tmp_pos = 163
-# set osd_esc_rpm_pos = 150
 set osd_flip_arrow_pos = 14544
-# set osd_core_temp_pos = 278
 set osd_log_status_pos = 2145
 set osd_rate_profile_name_pos = 2424
-# set osd_sys_vtx_temp_pos = 406
-# set osd_displayport_device = AUTO
 set osd_canvas_width = 30
 set osd_canvas_height = 13
+
+
 
 # document what is in this bitmask
 set osd_stat_bitmask = 8393892
