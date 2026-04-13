@@ -5,17 +5,39 @@
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 
-# Set elements to show only Battery Voltage and Flight Time
+# aux [Index] [Mode ID] [AUX Channel] [Min] [Max] [Links] [Condition]
+#    Index: The slot number in the modes list.
+#    Mode ID: The specific function being activated (e.g., Arming, Angle Mode).
+#    AUX Channel: Which radio channel is used (0 = AUX 1, 1 = AUX 2, etc.).
+#    Min/Max: The PWM range (usually 900–2100) where the mode is "Active."
+#    Links: Link > 0 requires the previous slot to be active (AND logic);
+#    Condition: defines the operator (0 = OR, 1 = AND).
 
-# aux
+# COMMON VALUE RANGES :
+# LOW:    900 1000
+# MIDDLE: 1700 1800
+# HIGH:   1950 2100
 
+# NOTE: the resolution of the ranges might be actually bound to the hundreds
+
+# 0 - ARM
 aux 0 0 0 1950 2100 0 0
 aux 1 0 4 1700 1800 0 0
+
+# 1 - ANGLE
 aux 2 1 3 1950 2100 0 0
+
+# 13 - BEEPERON
 aux 3 13 1 1700 2100 0 0
+
+# 26 - BLACKBOX
 aux 4 26 5 900 1100 1 0
 aux 5 26 0 1950 2100 1 0
+
+# BLACKBOX ERASE
 aux 6 31 5 1925 2100 0 0
+
+# FLIP OVER AFTER CRASH
 aux 7 35 4 1700 2100 0 0
 
 ###################################################################
